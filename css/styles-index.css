@@ -1,0 +1,92 @@
+body {
+  background-color: #0b0d17;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top;
+  background-image: url("../../assets/home/Particles.gif");
+}
+
+h5 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1.75rem;
+  letter-spacing: 0.295rem;
+  color: #d0d6f9;
+}
+
+h1 {
+  font-family: "Bellefair", serif;
+  font-size: 7.5rem;
+  color: white;
+  margin: 1.5rem 0;
+}
+
+p {
+  font-family: "Barlow", sans-serif;
+  font-size: 1.125rem;
+  color: #d0d6f9;
+}
+
+span {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.169rem;
+  font-size: 1.125rem;
+}
+
+/* Navigation Menu */
+.navbar {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(81.5485px);
+}
+
+.navbar-brand {
+  font-family: "Barlow", sans-serif;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+.nav-link {
+  font-family: "Barlow Condensed";
+  font-size: 1.125rem;
+  letter-spacing: 0.169rem;
+}
+
+.icon {
+  width: 1.75rem;
+  height: auto;
+  margin-right: 0.625rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+/* Title */
+.btn {
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: "Bellefair", serif;
+  letter-spacing: 0.125rem;
+  color: #f8f9fa;
+  font-size: 1.875rem;
+  padding: 0.938rem 2.5rem;
+  border: solid #f8f9fa 2px;
+  text-decoration: none;
+  margin-top: 16px;
+}
+
+.btn:hover {
+  background: #f8f9fa;
+  text-decoration: none;
+}
+
+.content {
+  text-align: center;
+  margin-top: 7.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
