@@ -4,7 +4,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-position: top;
-  background-image: url("/assets/home/Particles.gif");
+  background-image: url("../assets/home/Particles.gif");
 }
 
 h5 {
