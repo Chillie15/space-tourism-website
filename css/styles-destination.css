@@ -4,7 +4,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-position: top;
-  background-image: url("../assets/destination/background-destination-desktop.png");
+  background-image: url("/assets/destination/background-destination-desktop.png");
   color: white;
 }
 
@@ -133,20 +133,25 @@ hr {
 @media screen and (max-width: 1000px) {
   .destination {
     margin-bottom: 4.375rem;
+  }
+
+  .container {
     text-align: center;
   }
 
-  .description {
-    text-align: center;
+  body {
+    padding-bottom: 6.25rem;
   }
 }
 
-@media screen and (max-width: 470px) {
-  h1 {
-    font-size: 5.625rem;
+@media screen and (max-width: 500px) {
+  .container {
+    text-align: center;
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
   }
 
-  p {
-    padding: 0 1.875rem;
+  h1 {
+    font-size: 5rem;
   }
 }
