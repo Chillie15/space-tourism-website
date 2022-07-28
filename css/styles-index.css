@@ -4,7 +4,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-position: top;
-  background-image: url("/assets/home/Particles.gif");
+  background-image: url("../assets/home/Particles.gif");
 }
 
 h5 {
@@ -91,13 +91,19 @@ span {
   margin-right: auto;
 }
 
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 1000px) {
+  body {
+    padding-bottom: 6.25rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
   .container {
     padding-left: 1.875rem;
     padding-right: 1.875rem;
   }
-  
-   h1 {
+
+  h1 {
     font-size: 5.625rem;
   }
 }
